@@ -48,3 +48,6 @@ set backspace=2 " Fix backspace behavior on most terminals.
 colorscheme gruvbox " Change a colorscheme.
 set background=dark "Change background to dark mode.
 set guifont=Hack:h10:cANSI "Change default font.
+filetype plugin on "Enable OmniComplete.
+set omnifunc=syntaxcomplete#Complete "Enable OmniComplete.
+
