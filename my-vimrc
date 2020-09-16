@@ -39,6 +39,7 @@ call plug#end()
 "----- User-defined settings -----
 
 syntax on " Enable syntax highlighting.
+set number "Enable line number.
 filetype plugin indent on " Enable file type based indentation.
 set autoindent " Respect indentation when starting a new line.
 set expandtab " Expand tabs to spaces. Essential in Python.
