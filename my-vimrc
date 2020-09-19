@@ -17,7 +17,7 @@ Plug 'ctrlpvim/ctrlp.vim'
 Plug 'mattn/emmet-vim'
 
 "Prettier
-Plug 'prettier/vim-prettier'
+Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
 
 "Vim-Javascript
 Plug 'pangloss/vim-javascript'
