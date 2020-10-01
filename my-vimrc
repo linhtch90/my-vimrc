@@ -22,6 +22,9 @@ Plug 'yggdroot/indentline'
 "Colorizer
 Plug 'chrisbra/colorizer'
 
+"Github colorscheme
+Plug 'cormacrelf/vim-colors-github'
+
 call plug#end()
 
 "----- User-defined settings -----
@@ -34,9 +37,9 @@ set expandtab " Expand tabs to spaces. Essential in Python.
 set tabstop=4 " Number of spaces tab is counted for.
 set shiftwidth=4 " Number of spaces to use for autoindent.
 set backspace=2 " Fix backspace behavior on most terminals.
-colorscheme gruvbox " Change a colorscheme.
-set background=dark "Change background to dark mode.
-set guifont=Consolas:h10:cANSI "Change default font.
+set background=light "Change background to dark mode.
+colorscheme murphy " Change a colorscheme.
+set guifont=Consolas:h11:cANSI "Change default font.
 filetype plugin on "Enable OmniComplete.
 set omnifunc=syntaxcomplete#Complete "Enable OmniComplete.
 
