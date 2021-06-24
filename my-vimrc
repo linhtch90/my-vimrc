@@ -25,6 +25,9 @@ Plug 'alvan/vim-closetag'
 
 " Coc.nvim - Code completion
 Plug 'neoclide/coc.nvim'
+" Coc.nvim extensions
+" coc-css coc-dash-complete coc-dot-complete coc-emmet coc-eslint coc-highlight coc-html 
+" coc-htmldjango coc-jedi coc-json coc-markdownlint coc-prettier coc-sql coc-tsserver coc-xml
 
 " Neoformat - Code formater
 Plug 'sbdchd/neoformat'
