@@ -80,6 +80,7 @@ set nobackup
 set nowritebackup
 set noswapfile
 set wrap linebreak nolist
+set backspace=indent,eol,start
 set background=light
 colorscheme PaperColor
 let g:airline_theme='papercolor'
