@@ -23,6 +23,9 @@ Plug 'jiangmiao/auto-pairs'
 " Vim close tag
 Plug 'alvan/vim-closetag'
 
+" Vim-markdown
+Plug 'tpope/vim-markdown'
+
 " Coc.nvim - Code completion
 Plug 'neoclide/coc.nvim'
 " Coc.nvim extensions
@@ -75,4 +78,8 @@ set nowritebackup
 set noswapfile
 colorscheme pencil
 set background=light
+set wrap linebreak nolist
+
 let g:airline_theme = 'pencil'
+let g:vim_markdown_fenced_languages = ['csharp=cs', 'c++=cpp', 'viml=vim', 'bash=sh', 'ini=dosini', 'javascript', 'json=javascript', 'ruby', 'css', 'sass', 'xml', 'sql', 'python', 'html', 'typescript', 'java']
+
