@@ -6,14 +6,17 @@
 
 call plug#begin('~/.vim/plugged')
 
-" Gruvbox theme
-Plug 'morhetz/gruvbox'
+" Onedark theme
+Plug 'joshdick/onedark.vim'
 
 " Vim Airline
 Plug 'vim-airline/vim-airline'
 
 " Vim Airline theme
 Plug 'vim-airline/vim-airline-themes'
+
+" Vim polyglot
+Plug 'sheerun/vim-polyglot'
 
 " NerdTree
 Plug 'scrooloose/nerdtree'
@@ -76,15 +79,13 @@ set encoding=utf8 " Set text encoding as utf8
 set clipboard=unnamed " Use the OS clipboard by default
 set noendofline " No end-of-line character
 set shiftround " Shift to the next round tab stop. Aka When at 3 spaces, hit >> to go to 4, not 5 if your shiftwidth is set to 2.
-set guifont=Consolas:h11
+set guifont=Hack:h10
 set nobackup 
 set nowritebackup
 set noswapfile
 set wrap linebreak nolist
 set backspace=indent,eol,start
-let g:gruvbox_contrast_light='hard'
-colorscheme gruvbox
-set background=light
+colorscheme onedark
 
 let g:vim_markdown_fenced_languages = ['csharp=cs', 'c++=cpp', 'viml=vim', 'bash=sh', 'ini=dosini', 'javascript', 'json=javascript', 'ruby', 'css', 'sass', 'xml', 'sql', 'python', 'html', 'typescript', 'java']
 
