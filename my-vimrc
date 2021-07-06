@@ -33,6 +33,9 @@ Plug 'alvan/vim-closetag'
 " Vim-markdown
 Plug 'tpope/vim-markdown'
 
+" Markdown Preview NVim
+Plug 'iamcco/markdown-preview.nvim'
+
 " Coc.nvim - Code completion
 Plug 'neoclide/coc.nvim'
 " Coc.nvim extensions
