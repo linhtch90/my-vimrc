@@ -3,11 +3,10 @@
 " Specify a directory for plugins
 " - For Neovim: stdpath('data') . '/plugged'
 " - Avoid using standard Vim directory names like 'plugin'
-
 call plug#begin('~/.vim/plugged')
 
-" Onedark theme
-Plug 'joshdick/onedark.vim'
+" Dracula theme
+Plug 'dracula/vim', { 'as': 'dracula' }
 
 " Vim Airline
 Plug 'vim-airline/vim-airline'
@@ -15,7 +14,7 @@ Plug 'vim-airline/vim-airline'
 " Vim Airline theme
 Plug 'vim-airline/vim-airline-themes'
 
-" Vim polyglot
+" Vim Polyglot
 Plug 'sheerun/vim-polyglot'
 
 " NerdTree
@@ -67,8 +66,8 @@ set ai " Sets auto-indentation
 set si " Sets smart-indentation
 set noswapfile " Prevent vim from creating .swp files
 set cursorline " Highlight current cursor line
-set tabstop=2 " Tab equal 2 spaces (default 4)
-set shiftwidth=2 " Arrow function (>>) creates 2 spaces
+set tabstop=4 " Tab equal 2 spaces (default 4)
+set shiftwidth=4 " Arrow function (>>) creates 2 spaces
 set expandtab " Use spaces instead of a tab charater on TAB
 set smarttab " Be smart when using tabs
 set wrap " Wrap overflowing lines
@@ -88,9 +87,7 @@ set nowritebackup
 set noswapfile
 set wrap linebreak nolist
 set backspace=indent,eol,start
-colorscheme onedark
+colorscheme dracula
 
 let g:vim_markdown_fenced_languages = ['csharp=cs', 'c++=cpp', 'viml=vim', 'bash=sh', 'ini=dosini', 'javascript', 'json=javascript', 'ruby', 'css', 'sass', 'xml', 'sql', 'python', 'html', 'typescript', 'java']
-
-
 
